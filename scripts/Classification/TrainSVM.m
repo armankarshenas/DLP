@@ -9,7 +9,7 @@ Orien = "AP"; % Specify the orientation you want the script to generate (AP, LR,
 Number_cores = 4; % Specify the number of cores that can be used for SVM training 
 file_format = ""; % Specify the file format here (e.g tiff/tif/jpg)
 Path_to_lab_imgs = "";% Specify the path to top level directory containing all the labelled images in sub-directories 
-Path_to_save = "";% Specify the path to directory in which compressed images will be saved
+Path_to_save = "";% Specify the path to directory in which Trained models will be saved
 ext = "*." + file_format;
 %% Load images
 cd(Path_to_lab_imgs)
